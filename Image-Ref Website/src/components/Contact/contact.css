@@ -1,0 +1,34 @@
+.contact {
+    margin: 100px 120px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.contact-left, .contact-middle, .contact-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px 40px;
+    background-color: rgb(255, 129, 71);
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.contact-title {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 12px;
+}
+
+.contact-title p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.content {
+    font-size: 26px;
+}
